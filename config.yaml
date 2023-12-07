@@ -1,0 +1,25 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    abhinandan:
+      email: abhinandanghsh@gmail.com
+      name: abhinandan ghsh
+      password: $2b$12$sbNhIGScRQ3Va9FR5oX1Q.y1KYKmrYbPzlYqOS6Om7ZxrFVtyoWSK
+    jit:
+      email: jitkoley7@gmail.com
+      name: Jit koley
+      password: $2b$12$KORm3LzQvqhY0dHM1F8GS.HstedJF0PMIO4pEz14NVPJuJ/ApPhQi
+    jit2:
+      email: jit.koley@kasmo.co
+      name: Jit Koley
+      password: $2b$12$1srweBNFK8RThFemMWJbDuc0R6PAMZDsRrwGUToDw1F9j7arYSMwe
+    jitkoley:
+      email: jitkoley77@gmail.com
+      name: jit koley
+      password: $2b$12$vxJiO25rAxL8rihBUQGbbOWrs1vqzwjI2Q7EV749mzdjRHV9cdrEa
+preauthorized:
+  emails:
+  - melsby@gmail.com

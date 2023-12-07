@@ -1,0 +1,4 @@
+csv_username,csv_password,csv_role
+admin,Kasmo@123,ADMIN
+User,Kasmo@123,USER
+OWNER,Kasmo,OWNER

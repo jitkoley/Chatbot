@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot App</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Define the background and overall styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Create a container for the chatbot */
+        .chatbot-container {
+            background-color: #b3ffff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            width: 80%;
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Style the chatbot logo */
+        .chatbot-logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background-color: #007bff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            color: #fff;
+        }
+
+        /* Style the chatbot title */
+        .chatbot-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Style the start button */
+        .start-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for the start button */
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-logo">C</div>
+        <div class="chatbot-title">Welcome to Gensu, your virtual Germania assistant</div>
+        <button class="start-button">Start Chat</button>
+    </div>
+</body>
+</html>
