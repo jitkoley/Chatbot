@@ -14,8 +14,8 @@ import os
 def download_all_pdfs_from_s3(bucket_name, s3_directory, local_directory):
     s3 = boto3.client(
         's3',
-        aws_access_key_id="AKIA2HTZEBEIIJ3FEWF5", # my AWS Access key
-        aws_secret_access_key="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" # my AWS secret key
+        aws_access_key_id="AKIA2HTZEBEIIJ3F", # my AWS Access key
+        aws_secret_access_key="t5GQ1nlV12LWsPGVjY+jIREfTNhR1iOm0u2" # my AWS secret key
     )
 
     # List objects in the specified S3 bucket directory
